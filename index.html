@@ -47,4 +47,26 @@
     <button id="Klick2">Gooner</button>
     <p id="Notes"></p>
 </body>
+<table id="Beste Tabelle">
+    <thead>
+        <tr>
+            <th>Produkt</th>
+            <th>Preis</th>
+            <th>Liter</th>
+            <th>Menge</th>
+            <th>Gesamt</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Alsolut Vodka</td>
+            <td id="preis-1">15€</td>
+            <td>1</td>
+            <td>
+                <input type="number" id="menge-1" value="1" onchange="berechne('preis-1', 'menge-1', 'gesamt-1')">
+            </td>
+            <td id="gesamt-1">15.00 €</td>
+        </tr>
+    </tbody>
+</table>
 </html>
