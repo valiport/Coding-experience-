@@ -8,7 +8,7 @@ button.addEventListener("click", () => {
 const button2 = document.getElementById("Klick2");
 const text2 = document.getElementById("Notes");
 button2.addEventListener("click", () => {
-    text2.innerHTML = "<a href=\"https://de.pornhub.com/view_video.php?viewkey=691649d10e0d7\">Official Gooner Website</a>";
+    text2.innerHTML = "<a href=\"https://de.pornhub.com/view_video.php?viewkey=643bf5af862de\">Official Gooner Website</a>";
 });
 
 function berechne(preisId, mengeId, gesamtId) {
