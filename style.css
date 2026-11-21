@@ -5,7 +5,7 @@
 body{
   min-height: 100vh;
   margin: 0;
-  display: grid;
+  display: diagonal;
   place-items: center;
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #8fbffe, #fce7f3);
@@ -20,7 +20,8 @@ button{
     color: white;
     font-size: 1rem;
     cursor: pointer;
-    position: start;
+    position: x=333px y=100px
+;
 }
 
 button:hover{
@@ -35,4 +36,19 @@ a{
 
 tr{
     background-color: #ffffff;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 60px;
+    margin: 2rem auto;
+    color: #72425e;
+    box-shadow: 0 8px 8px rgba(226, 168, 168, 0.733);
+}
+li{
+    margin: 0.5rem 0;
+    color: #6ab946;
+    display: flex;
+    align-items: center;
 }
